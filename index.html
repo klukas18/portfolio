@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio Website</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="loading-screen">
+			<img width="106px" height="106px" src="./hourglass.png" />
+		</div>
+
+		<header class="layout-ws">
+			<a href="#" class="logo"></a>
+			<a
+				href="https://github.com/klukas18"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="ghlogo"
+			>
+				<img width="48px" height="48px" src="./github-mark-white.png" />
+			</a>
+		</header>
+
+		<main class="hero">
+			<div class="left layout-ws">
+				<h1>
+					<div class="mask primary-h1">
+						<span>Web Development</span>
+					</div>
+					<div class="mask">
+						<span>Krzysztof <br />Łukaszewicz</span>
+					</div>
+				</h1>
+			</div>
+			<div class="right">
+				<div class="vid-overlay"></div>
+				<video autoplay muted loop>
+					<source src="./introvid.mp4" type="video/mp4" />
+				</video>
+			</div>
+		</main>
+
+		<section class="details">
+			<div class="inspection layout-ws">
+				<h2>68</h2>
+				<div class="ring-bg">
+					<p>Point Inspection</p>
+				</div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
+					ipsum repellat sapiente nisi quod, nostrum molestiae ratione explicabo
+					harum quaerat.
+				</p>
+			</div>
+			<div class="mask marquee">
+				<h3>dedication</h3>
+			</div>
+		</section>
+
+		<div class="no-overflow">
+			<section class="slider">
+				<div class="slide">
+					<div class="inner layout-ws">
+						<p class="slide-p">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Inventore quibusdam fugit aspernatur rerum! Corporis, eum?
+						</p>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="inner layout-ws">
+						<p class="slide-p">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Inventore quibusdam fugit aspernatur rerum! Corporis, eum?
+						</p>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="inner layout-ws">
+						<p class="slide-p">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Inventore quibusdam fugit aspernatur rerum! Corporis, eum?
+						</p>
+					</div>
+				</div>
+				<div class="progress"></div>
+			</section>
+		</div>
+
+		<section class="contact">
+			<div class="inner-contact">
+				<div class="line-top"></div>
+				<div class="layout-ws">
+					<div class="mask">
+						<h4>Reserve yours today.</h4>
+					</div>
+					<a href="3" class="cta">
+						<div class="mask">
+							<span>Put me on the list</span>
+						</div>
+					</a>
+					<p class="contact-desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+						minima itaque magnam maiores dolor libero eius provident corrupti
+						exercitationem nulla?
+					</p>
+				</div>
+				<div class="line-bottom"></div>
+			</div>
+		</section>
+
+		<canvas class="webgl"></canvas>
+
+		<script type="module" src="./main.js"></script>
+	</body>
+</html>
